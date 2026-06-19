@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fizzbuzz"
+version = "0.1.0"
+description = "A simple FizzBuzz project."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Your Name" },
+]
+dependencies = [
+    "pytest>=8.3.5",
+]
+
+[project.scripts]
+fizzbuzz = "fizzbuzz.fizzbuzz:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
