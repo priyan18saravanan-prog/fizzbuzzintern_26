@@ -1,5 +1,5 @@
 """FizzBuzz package."""
 
-from .fizzbuzz import fizzbuzz, main
+from .fizzbuzz import DEFAULT_RULES, fizzbuzz, main
 
-__all__ = ["fizzbuzz", "main"]
+__all__ = ["DEFAULT_RULES", "fizzbuzz", "main"]
